@@ -1,0 +1,8 @@
+config SHIELD_HURNA_LEFT
+    def_bool $(shields_list_contains,hurna)
+
+config SHIELD_HURNA_RIGHT
+    def_bool $(shields_list_contains,hurna)
+
+config SHIELD_HURNA_DONGLE
+    def_bool $(shields_list_contains,hurna_dongle)
