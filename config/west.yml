@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: badjeff
-      url-base: https://github.com/badjeff
     - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
@@ -13,9 +11,6 @@ manifest:
       import: app/west.yml
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
-    - name: zmk-behavior-battery-percentage-printer
-      remote: badjeff
       revision: main
   self:
     path: config
