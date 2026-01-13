@@ -1,4 +1,6 @@
 #include "hurna.dtsi"
+#include "hurna_left.overlay"
+#include "hurna_right.overlay"
 
 / {
     chosen {
