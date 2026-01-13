@@ -3,10 +3,12 @@ include:
   - board: nice_nano
     shield: hurna_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    snippet: zmk-usb-logging
   - board: nice_nano
     shield: hurna_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
   - board: nice_nano
     shield: hurna_dongle dongle_display
+    snippet: zmk-usb-logging
   - board: nice_nano
     shield: settings_reset
