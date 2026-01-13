@@ -2,8 +2,6 @@
 
 / {
     chosen {
-        zmk,split = &central;
-        
         zephyr,display = &oled;
     };
 };
