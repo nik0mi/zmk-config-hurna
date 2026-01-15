@@ -4,7 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: englmaxi
       url-base: https://github.com/englmaxi
-  projects:
+      name: badjeff
+      url-base: https://github.com/badjeff
+    - name: nrfconnect
+      url-base: https://github.com/nrfconnect
     - name: zmk
       remote: zmkfirmware
       revision: main
@@ -12,5 +15,18 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: main
+  projects:
+    - name: zmk-feature-split-esb
+      remote: badjeff
+      revision: main
+    - name: sdk-nrf
+      remote: badjeff
+      revision: v3.1-branch+zmk-fixes
+      path: nrf
+    - name: nrfxlib
+      remote: nrfconnect
+      revision: v3.1-branch
+      repo-path: sdk-nrfxlib
+      path: nrfxlib
   self:
     path: config
