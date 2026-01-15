@@ -20,6 +20,10 @@ manifest:
       revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
 
   self:
     path: config
