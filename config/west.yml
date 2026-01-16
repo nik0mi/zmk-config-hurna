@@ -6,8 +6,15 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
-
+    - name: kmobs
+      url-base: https://github.com/kmobs
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
     - name: zmk-feature-split-esb
       remote: badjeff
       revision: main
@@ -20,10 +27,8 @@ manifest:
       revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
-
+    - name: zmk-dongle-screen
+      remote: kmobs
+      revision: upgrade-4.1
   self:
     path: config
