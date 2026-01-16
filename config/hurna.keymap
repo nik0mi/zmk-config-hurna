@@ -66,14 +66,13 @@
         };
     };
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
-
     combos {
         compatible = "zmk,combos";
 
         gaming {
             bindings = <&tog 1>;
             key-positions = <38 39 32 33>;
+            layers = <0 1>;
         };
 
         esc {
@@ -126,10 +125,10 @@
 
         GAME_SYM {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &kp F6   &kp F7   &kp F8           &none  &none
-&kp N1  &kp N2  &kp N3  &kp N4  &kp N5          &kp F9   &kp F10  &kp F11          &none  &none
-&kp N0  &kp N9  &kp N8  &kp N7  &kp NUMBER_6    &kp F12  &ht TILDE GRAVE    &kp T  &none  &none
-                &none   &none   &none           &none    &none    &none
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5          &kp F6   &kp F7           &kp F8   &none  &none
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5          &kp F9   &kp F10          &kp F11  &none  &none
+&kp N0  &kp N9  &kp N8  &kp N7  &kp NUMBER_6    &kp F12  &ht TILDE GRAVE  &kp T    &none  &none
+                &none   &none   &none           &none    &none            &none
             >;
         };
 
