@@ -69,12 +69,6 @@
     combos {
         compatible = "zmk,combos";
 
-        gaming {
-            bindings = <&tog 1>;
-            key-positions = <38 39 9 8>;
-            layers = <0 1>;
-        };
-
         esc {
             bindings = <&kp ESC>;
             key-positions = <1 0>;
@@ -99,6 +93,11 @@
             bindings = <&kp B>;
             key-positions = <14 24>;
             layers = <1>;
+        };
+
+        gaming {
+            bindings = <&tog 1>;
+            key-positions = <32 33>;
         };
     };
 
