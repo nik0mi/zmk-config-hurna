@@ -6,10 +6,10 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
-    - name: kmobs
-      url-base: https://github.com/kmobs
     - name: janpfischer
       url-base: https://github.com/janpfischer
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
