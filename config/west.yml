@@ -8,8 +8,6 @@ manifest:
       url-base: https://github.com/nrfconnect
     - name: janpfischer
       url-base: https://github.com/janpfischer
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -27,8 +25,5 @@ manifest:
       revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: zmk-dongle-display
-      remote: englmaxi
-      revision: main
   self:
     path: config
