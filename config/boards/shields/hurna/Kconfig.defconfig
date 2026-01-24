@@ -11,6 +11,9 @@ config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
 
 endif
 
+config ZMK_SPLIT
+    default y
+
 if LVGL
 
 config LV_Z_VDB_SIZE
@@ -26,6 +29,8 @@ choice LV_COLOR_DEPTH
     default LV_COLOR_DEPTH_1
 endchoice
 
+endif
+
 if ZMK_DISPLAY
 
 config I2C
@@ -37,5 +42,3 @@ endchoice
 
 endif
 
-config ZMK_SPLIT
-    default y
