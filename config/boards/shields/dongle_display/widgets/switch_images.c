@@ -56,7 +56,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SW1 uint8
 
 
 const lv_img_dsc_t SW1 = {
-  .header.cf = LV_IMG_CF_TRUE_COLOR,
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 128,
@@ -108,7 +108,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SW2 uint8
 };
 
 const lv_img_dsc_t SW2 = {
-  .header.cf = LV_IMG_CF_TRUE_COLOR,
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 128,
@@ -161,7 +161,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SW3 uint8
 };
 
 const lv_img_dsc_t SW3 = {
-  .header.cf = LV_IMG_CF_TRUE_COLOR,
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 128,
@@ -214,7 +214,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SW4 uint8
 };
 
 const lv_img_dsc_t SW4 = {
-  .header.cf = LV_IMG_CF_TRUE_COLOR,
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 128,
@@ -267,7 +267,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SW5 uint8
 };
 
 const lv_img_dsc_t SW5 = {
-  .header.cf = LV_IMG_CF_TRUE_COLOR,
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 128,
@@ -320,7 +320,7 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_SW6 uint8
 };
 
 const lv_img_dsc_t SW6 = {
-  .header.cf = LV_IMG_CF_TRUE_COLOR,
+  .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 128,
